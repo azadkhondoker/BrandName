@@ -1,0 +1,376 @@
+
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* start reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    padding-bottom: 112px;
+    padding-top: 112px;
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+ul, ol{
+    list-style: none;
+} 
+/* end reset css */
+
+/* start-hero-css */
+.hero-section{
+    background: url(assets/img/hero-img/background.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.hero-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0,.6);
+    z-index: -1;
+    
+}
+
+.hero-section h4 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: 200;
+    }
+.hero-caption h2 {
+    font-weight: 800;
+    font-size: 27px;
+}.hero-caption .btn.btn-info.btn-lg {
+    display: block;     
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+.hero-section .hero-caption form {
+     margin-top: 60px;
+     padding-left: 70px;
+    }
+/* end-hero-css */
+
+
+
+/* non-img-card-css-start */
+.card-para{
+    padding-bottom: 112px;
+}
+.card-para h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2;
+    color: #737373;
+}
+.card-para h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height:50px;
+    letter-spacing: 0.2;
+    color: #252b42;
+}
+.card-para p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2;
+    color: #737373;
+}
+.icon-card img{
+    padding: 24px 18px;
+    background-color: #B2e3ff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.icon-card .color-2 img{
+    background-color: #B9EAA8;
+}
+.icon-card .color-4 img{
+    background-color: #FFDCD1;
+}
+
+.icon-card h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    padding-bottom: 20px;
+    
+    
+}
+.icon-card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+   
+}
+.icon-card{
+    padding: 35px 40px;
+    gap: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+/* non-img-card-css-end */
+
+
+/* start-about-section */
+.about-img{
+    padding-left: 20px;
+   text-align: center;
+   position: relative;
+}
+
+.about-para h2{
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: 0.2px;
+color: #252B42;
+padding-bottom: 35px;
+}
+.about-para p{
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #737373;
+padding-bottom: 35px;
+
+}
+.about-para{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.blank-div{
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    margin-bottom: 35px;
+}
+.btn a{
+    color: blue;
+}
+.btn a:hover{
+    color: aqua;
+}
+/* end-about-section */
+
+/* start-feature-card-css */
+.feature-para h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2;
+    color: #737373;
+    padding-bottom: 10px;
+}
+.feature-para h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height:50px;
+    letter-spacing: 0.2;
+    color: #252b42;
+    padding-bottom: 10px;
+}
+.feature-para p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2;
+    color: #737373;
+    padding-bottom: ;
+}
+.feature-para{
+    padding-bottom: 112px;
+}
+
+.icon-base{
+    padding: 2px;
+    margin: -5;
+    justify-content: flex-start;
+}
+.borderd-btn {
+    height: 50px;
+    border: 2px solid blue;
+    width: 150px;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.rate span {
+    color:greenyellow;
+    padding-left: 13px;
+}
+.star-rating p i{
+    color: gold;
+    font-size: 18px;
+}
+.star-rating a{
+    font-size: 18px;
+}
+
+/* end-feature-card-css */
+
+/* testimonial-css-start */
+    .testimo-para h5{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+    }
+    .testimo-para h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+  }
+  .testimo-para p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+  .testimo-para{
+    padding-bottom: 112px;
+  }
+  .testimo-content p {
+    text-align: center;
+}
+
+.testimo-content {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.testimo-img {
+    text-align: center;
+    
+}
+.testimo-content .star span i{
+    color: gold;
+    font-size: 18px;
+    padding: 6px;
+}
+.testimo-content h5{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.21px;
+    color: #737373;
+    }
+    .testimo-content h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+  }
+  .testimo-content p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+/* testimonial-css-end */
+
+/* contact-css-start */
+.contact-content h6{
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #23A6F0;
+}
+.contact-content h3{
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #252B42;
+
+}
+.contact-content p{
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
+}
+section.contact-section input {
+    padding: 10px 80px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.input-form{
+    text-align: center;
+}
+section.contact-section button {
+    padding: 14px 28px;
+    font-size: 18px;
+    background: #23A6F0;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+}
+.input-form{
+    padding-top: 80px;
+}
+/* contact-css-end */
+
+/* footer section-start */
+ul li{
+    display: inline-block;
+    justify-content: flex-start;
+}
+.footer-items h3{
+   padding-bottom: 20px;
+   align-items: flex-start;
+}
+
+.footer-items .list-style ul li{
+    display: block;
+}
+li:not(last-child){
+    padding-bottom: 10px;
+}
+li a i{
+    padding: 10px;
+    color: blue;
+    
+}
+.list-style li a{
+    color: #252b42;
+    align-items: flex-start;
+}
+.copy-reght{
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #dddd;
+}
+
+/* footer section-end */
